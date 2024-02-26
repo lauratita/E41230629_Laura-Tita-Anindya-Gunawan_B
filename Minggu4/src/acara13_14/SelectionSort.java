@@ -30,7 +30,7 @@ public class SelectionSort {
         }
         
 //        blueprint array sebelum selection short
-        System.out.println("Array sebelum selection short : ");
+        System.out.println("Array sebelum selection short ASC : ");
         for(int i = 0; i < jumlahElemen; i++){
             System.out.print(arr[i] + " ");
         }
@@ -40,7 +40,7 @@ public class SelectionSort {
         for(int i = 0; i < jumlahElemen; i++){
             for(int j = i+1; j < jumlahElemen; j++){
                 if(arr[i] > arr[j]){
-                    temp = arr[i];
+                    temp = arr[i];  
                     arr[i] = arr[j];
                     arr[j] = temp;
                 }
