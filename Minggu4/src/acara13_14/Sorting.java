@@ -18,14 +18,13 @@ public class Sorting {
 //        membuat berapa banyak perulangan di olah sepanjang length
         for(int i = 0; i < n; i++)
         {
-//            
             for(int j = 1; j < (n-i); j++)
             {
 //                proses perbandingan. jika nilai di array lebih besar dari j(belakangnya) maka nilai yang di depannya disimpan di temp
 //                menyetarakan n-1 dengan sebelumnya, maka si j akan sama dengan di temp
                 if(arr[j-1] > arr[j])
                 {
-//                    swal elements
+//                    awal elements
                     temp = arr[j-1];
                     arr[j-1] = arr[j];
                     arr[j] = temp;
