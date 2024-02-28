@@ -11,6 +11,7 @@ package AbstractClass;
 public class B extends A {
 //    method abstrak di-override dan dibuat
     public void method2(){
-        System.out.println("Method abstract yang sudah menjadi konkrit dalam class B");
+        System.out.println("Method abstract yang sudah menjadi konkrit "
+                + "dalam class B");
     }
 }
